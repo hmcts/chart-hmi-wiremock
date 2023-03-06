@@ -1,57 +1,6 @@
-# Build output
-target/
-build/
-.gradle/
-*.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# Allow gradle wrapper .jar
-!gradle-wrapper.jar
-
-# Allow jacocoAgent .jar
-!jacocoagent.jar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-# IDE
-.idea/
+**/*.tgz
 *.iml
-.settings/
-.project
-.classpath
-.vscode/
-
-# macOS
-.DS_Store
-
-# Azure Functions
-local.settings.json
-bin/
-obj/
-
-# Generated
-/*.gpg
-/*.tmp
-/*.bgc
-/test-blob
-
-# App Insights
-applicationinsights-agent-*.jar
-*.log
+.idea
+*.local
+*.local.yaml
+Chart.lock
